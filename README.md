@@ -6,9 +6,9 @@
 POST /auth/create-account
 
 {
-  "email": string,
-  "username": string,
-  "password": number
+  "email": "string",
+  "username": "string",
+  "password": "number"
 }
 ```
 
@@ -16,8 +16,8 @@ POST /auth/create-account
 POST /auth/login
 
 {
-  "email": string,
-  "password": number
+  "email": "string",
+  "password": "number"
 }
 ```
 
@@ -25,8 +25,8 @@ POST /auth/login
 DELETE /auth/login
 
 {
-  "email": string,
-  "password": number
+  "email": "string",
+  "password": "number"
 }
 ```
 
